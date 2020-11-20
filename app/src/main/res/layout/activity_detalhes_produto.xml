@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_margin="8dp"
+  android:orientation="vertical"
+  android:padding="8dp"
+  tools:context=".activity.DetalhesProdutoActivity">
+
+  <com.synnapps.carouselview.CarouselView
+    android:id="@+id/carouselView"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    app:fillColor="#FFFFFFFF"
+    app:pageColor="#00000000"
+    app:radius="6dp"
+    app:slideInterval="3000"
+    app:strokeColor="#FF777777"
+    app:strokeWidth="1dp" />
+
+  <TextView
+    android:id="@+id/textTituloDetalhe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/roboto"
+    android:text="Titulo"
+    android:textColor="#000000"
+    android:textSize="20sp" />
+
+  <TextView
+    android:id="@+id/textPrecoDetalhe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/roboto_bold"
+    android:paddingBottom="8dp"
+    android:text="R$ 777"
+    android:textColor="#000000"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/colorPrimary" />
+
+  <TextView
+    android:id="@+id/textEstadoDetalhe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/ic_location_on_24"
+    android:fontFamily="@font/roboto"
+    android:padding="8dp"
+    android:text="SP"
+    android:textColor="#000000"
+    android:textSize="20sp" />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="8dp" />
+
+  <TextView
+    android:id="@+id/textDescricaoDetalhe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/roboto"
+    android:paddingTop="8dp"
+    android:paddingBottom="250dp"
+    android:text="Descrição"
+    android:textColor="#000000"
+    android:textSize="16sp" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <Button
+      android:id="@+id/button3"
+      android:layout_width="100dp"
+      android:layout_height="60dp"
+      android:layout_weight="1"
+      android:drawableLeft="@drawable/ic_call_24"
+      android:fontFamily="@font/roboto"
+      android:onClick="ligarTelefone"
+      android:text="Ligar"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      android:theme="@style/botaoPadrao" />
+
+    <Button
+      android:id="@+id/button4"
+      android:layout_width="100dp"
+      android:layout_height="60dp"
+      android:layout_weight="1"
+      android:drawableLeft="@drawable/ic_whatsapp"
+      android:fontFamily="@font/roboto"
+      android:onClick="whatsApp"
+      android:text="WhatsApp"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      android:theme="@style/botaoPadrao" />
+  </LinearLayout>
+
+</LinearLayout>

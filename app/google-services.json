@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754825544474",
+    "firebase_url": "https://anunciaki-b1bd3.firebaseio.com",
+    "project_id": "anunciaki-b1bd3",
+    "storage_bucket": "anunciaki-b1bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754825544474:android:252b93c8b163adc12ee2a3",
+        "android_client_info": {
+          "package_name": "com.example.anunciaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754825544474-hulqb5695s09h536josqradavrlj4fb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anunciaki",
+            "certificate_hash": "7d77cab94b944899a38f9a9411b99739af5f2c82"
+          }
+        },
+        {
+          "client_id": "754825544474-6omjrgdl4copmn1apsrbogudi1r4esh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzsm0TTHlbMaOtBZtLjb3AbH-5rU3ifZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754825544474-6omjrgdl4copmn1apsrbogudi1r4esh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
