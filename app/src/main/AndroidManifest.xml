@@ -21,7 +21,7 @@
       android:theme="@style/AppTheme.NoActionBar"
       android:parentActivityName=".activity.AnunciosActivity"
       />
-    <activity android:name=".activity.CadastroActivity" />
+    <activity android:name=".activity.CadastroActivity" android:parentActivityName=".activity.AnunciosActivity" />
     <activity android:name=".activity.AnunciosActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
